@@ -1,0 +1,66 @@
+/* App.css */
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.action-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.action-button:hover {
+  background-color: #0056b3; /* Darker shade for hover */
+}
+
+.add-button {
+  margin-bottom: 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+/* App.css */
+
+.task-input {
+  width: 100%;               /* Full width of the parent container */
+  padding: 10px;             /* Padding inside the input */
+  margin-bottom: 20px;       /* Space below the input */
+  font-size: 16px;           /* Increase font size for better readability */
+  border: 1px solid #ccc;    /* Light grey border */
+  border-radius: 4px;        /* Rounded corners */
+  box-sizing: border-box;    /* Include padding and border in the element's total width and height */
+  transition: border-color 0.3s; /* Smooth transition for border color on focus */
+}
+
+.task-input:focus {
+  border-color: #007bff;     /* Change border color on focus */
+  outline: none;             /* Remove default outline */
+}
